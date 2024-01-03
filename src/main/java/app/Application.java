@@ -52,7 +52,7 @@ public class Application {
             System.out.printf("Valor total vendido pelo vendedor Logan nos meses 1 e 7 = %.2f%n", total);
         }
         catch (IOException e) {
-            System.out.println("Arquivo de caminho não encontrado");
+            System.out.println("Erro: " + caminhoArquivo + " (O sistema não pode encontrar o arquivo especificado)");
         }
 
         sc.close();
